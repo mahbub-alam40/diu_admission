@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+.carousel-caption {
+    background: rgba(0, 123, 255, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar {
+    background: linear-gradient(90deg, #ff6f61, #6b48ff);
+}
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-dark .nav-link:hover {
+    color: #ffeb3b;
+}
+.dropdown-menu {
+    background-color: #6b48ff;
+}
+.dropdown-item {
+    color: #fff;
+}
+.dropdown-item:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu.submenu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-top: -1px;
+    display: none; /* Hidden by default, shown via JavaScript */
+}
+.dropdown-submenu:hover .dropdown-menu.submenu {
+    display: block; /* Show on hover as fallback */
+}
+.container {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    border-color: #6b48ff;
+}
+.form-control.is-invalid {
+    border-color: #ff6f61;
+}
+.form-message {
+    font-size: 0.9em;
+    color: #ff6f61;
+}
+.btn-primary {
+    background-color: #6b48ff;
+    border-color: #6b48ff;
+}
+.btn-primary:hover {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+h1, h2 {
+    color: #ff6f61;
+}
+p {
+    color: #333;
+}
